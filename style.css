@@ -1,0 +1,69 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+form > * {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.usersList {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.carsList {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 2px coral;
+}
+
+.field {
+  border: 1px solid goldenrod;
+  height: 20px;
+  min-width: 250px;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.errorText {
+  color: red;
+  font-weight: bold;
+}
+
+p {
+  display: flex;
+  color: rgb(2, 90, 2);
+  margin: 1px;
+}
+
+.car {
+  border: 2px solid grey;
+  width: 250px;
+  margin: 20px 0;
+  padding: 3px;
+}
+
+.userblock {
+  border: 2px solid grey;
+  width: 250px;
+  margin: 20px 0;
+  padding: 3px;
+}
+
+.submit {
+  width: 50px;
+}
+
+.carList {
+  margin: 0 40px;
+  width: 400px;
+}
+
+.hidden {
+  display: none;
+}
